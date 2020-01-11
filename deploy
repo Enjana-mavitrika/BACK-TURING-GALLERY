@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "copy source code from dev repo..."
+cp -r ../../DEV_TURING_GALLERY/backend/turgal/* .
+echo "copy done"
+
+# deploy to heroku using maven
+echo "deploy backend app"
+mvn clean heroku:deploy
+heroku open
+echo "app runing on https://back-turing-gallery.herokuapp.com/"
+
