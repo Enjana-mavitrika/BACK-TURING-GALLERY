@@ -1,14 +1,14 @@
 
 package fr.ujm.turgal;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@Controller
+@RestController
 public class IndexController {
 
-    // @GetMapping("/")
-    // public String indexAction() {
-    // return "welcome";
-    // }
+    @GetMapping("/")
+    public String indexAction() {
+        return "Bienvenue dans l'app backend de Turing gallery";
+    }
 }
