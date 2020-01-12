@@ -1,1 +1,0 @@
-web: java $JAVA_OPTS -jar /home/nerd/Documents/MASTER 1/GENIE_LOGICIEL/PROJET/PROD_TURING_GALLERY/BACK-TURING-GALLERY/target/turgal-0.0.1-SNAPSHOT.jar
